@@ -3,24 +3,24 @@ perl-Gnome2
 Perl bindings for the libbonoboui-2 and libgnomeui-2 libraries.
 
 Runtime requirements:
-  cygwin-1.5.23-2
-  gdk-pixbuf2-2.10.6-1
-  glib2-2.12.4-1
-  gtk2-x11-2.10.6-1
-  libbonoboui2-2.16.0-1
-  libgnome2-2.16.0-1
-  libgnomeui2-2.16.1-1
+  cygwin-1.5.24-2
+  gdk-pixbuf2-2.10.14-1
+  glib2-2.12.13-1
+  gtk2-x11-2.10.14-1
+  libbonoboui2-2.18.0-1
+  libgnome2-2.18.0-1
+  libgnomeui2-2.18.1-1
   perl-5.8.7-5
-  perl-Glib-1.141-1
+  perl-Glib-1.144-1
   perl-Gnome2-Canvas-1.002-4
   perl-Gnome2-VFS-1.061-1
-  perl-Gtk2-1.141-1
+  perl-Gtk2-1.146-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.23-2
+  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.7-1
+  cygport-0.3.5-1
   gcc-core-3.4.4-3
   make-3.81-1
   perl-5.8.7-5
@@ -36,15 +36,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Gnome2-1.041-1-src.tar.bz2
+  unpack perl-Gnome2-1.042-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Gnome2-1.041-1.cygport all
+  cygport ./perl-Gnome2-1.042-1.cygport all
 
 This will create:
-  /usr/src/perl-Gnome2-1.041-1-src.tar.bz2
-  /usr/src/perl-Gnome2-1.041-1.tar.bz2
+  /usr/src/perl-Gnome2-1.042-1-src.tar.bz2
+  /usr/src/perl-Gnome2-1.042-1.tar.bz2
 
 -------------------------------------------
 
@@ -109,13 +109,13 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Gnome2.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Gnome2.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/libGnome2.dll.a
-  /usr/share/doc/Cygwin/perl-Gnome2-1.041.README
-  /usr/share/doc/perl-Gnome2-1.041/AUTHORS
-  /usr/share/doc/perl-Gnome2-1.041/ChangeLog
-  /usr/share/doc/perl-Gnome2-1.041/LICENSE
-  /usr/share/doc/perl-Gnome2-1.041/NEWS
-  /usr/share/doc/perl-Gnome2-1.041/README
-  /usr/share/doc/perl-Gnome2-1.041/TODO
+  /usr/share/doc/Cygwin/perl-Gnome2-1.042.README
+  /usr/share/doc/perl-Gnome2-1.042/AUTHORS
+  /usr/share/doc/perl-Gnome2-1.042/ChangeLog
+  /usr/share/doc/perl-Gnome2-1.042/LICENSE
+  /usr/share/doc/perl-Gnome2-1.042/NEWS
+  /usr/share/doc/perl-Gnome2-1.042/README
+  /usr/share/doc/perl-Gnome2-1.042/TODO
   /usr/share/man/man3/Gnome2.3pm.gz
   /usr/share/man/man3/Gnome2.About.3pm.gz
   /usr/share/man/man3/Gnome2.App.3pm.gz
@@ -168,6 +168,9 @@ Files included in the binary package:
 --------------------
 
 Port Notes:
+
+----- version 1.042-1 -----
+Version bump.
 
 ----- version 1.041-1 -----
 Version bump.
