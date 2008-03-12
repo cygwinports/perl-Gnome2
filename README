@@ -3,29 +3,27 @@ perl-Gnome2
 Perl bindings for the libbonoboui-2 and libgnomeui-2 libraries.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  gdk-pixbuf2-2.10.14-1
-  glib2-2.12.13-1
-  gtk2-x11-2.10.14-1
-  libbonoboui2-2.18.0-1
-  libgnome2-2.18.0-1
-  libgnomeui2-2.18.1-1
-  perl-5.8.7-5
-  perl-Glib-1.144-1
-  perl-Gnome2-Canvas-1.002-4
-  perl-Gnome2-VFS-1.061-1
-  perl-Gtk2-1.146-1
+  cygwin-1.5.25-7
+  gdk-pixbuf2-2.12.7-1
+  glib2-2.14.6-1
+  gtk2-x11-2.12.7-1
+  libbonoboui2-2.20.0-1
+  libgnome2-2.20.0.1-1
+  libgnomeui2-2.20.0.1-1
+  perl-5.10.0-3
+  perl-Glib-1.164-1
+  perl-Gnome2-Canvas-1.002-5
+  perl-Gnome2-VFS-1.081-1
+  perl-Gtk2-1.164-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.9-1
   gcc-core-3.4.4-3
   make-3.81-1
-  perl-5.8.7-5
-  perl-ExtUtils-Depends-0.205-1
-  perl-ExtUtils-PkgConfig-1.07-1
+  perl-ExtUtils-Depends-0.205-2
+  perl-ExtUtils-PkgConfig-1.10-1
 
 Canonical homepage:
   http://gtk2-perl.sourceforge.net/
@@ -36,80 +34,76 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Gnome2-1.042-1-src.tar.bz2
+  unpack perl-Gnome2-1.042-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Gnome2-1.042-1.cygport all
+  cygport ./perl-Gnome2-1.042-X.cygport all
 
 This will create:
-  /usr/src/perl-Gnome2-1.042-1-src.tar.bz2
-  /usr/src/perl-Gnome2-1.042-1.tar.bz2
+  /usr/src/perl-Gnome2-1.042-X-src.tar.bz2
+  /usr/src/perl-Gnome2-1.042-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-Gnome2.sh
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/About.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/App.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/AppBar.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/AppHelper.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/AuthenticationManager.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Bonobo.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Bonobo/Dock.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Bonobo/DockItem.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Client.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/ColorPicker.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Config.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Config/Iterator.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/DateEdit.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Druid.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/DruidPage.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/DruidPageEdge.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/DruidPageStandard.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Entry.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/FileEntry.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/FontPicker.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/HRef.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Help.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/I18N.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/IconEntry.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/IconList.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/IconSelection.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/IconTextItem.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/IconTheme.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Install/Files.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Install/doctypes
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Install/gnome.typemap
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Install/gnome2perl-autogen.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Install/gnome2perl-versions.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Install/gnome2perl.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Install/gnome2perl.typemap
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/ModuleInfo.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/PasswordDialog.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/PixmapEntry.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/PopupMenu.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Program.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Score.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Scores.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Sound.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Thumbnail.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/ThumbnailFactory.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/UIDefs.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/URL.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Util.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Window.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/WindowIcon.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/enums.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/index.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/main.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/.packlist
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Gnome2.bs
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Gnome2.dll
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/libGnome2.dll.a
-  /usr/share/doc/Cygwin/perl-Gnome2-1.042.README
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/About.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/App.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/AppBar.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/AppHelper.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/AuthenticationManager.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Bonobo.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Bonobo/Dock.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Bonobo/DockItem.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Client.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/ColorPicker.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Config.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Config/Iterator.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/DateEdit.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Druid.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/DruidPage.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/DruidPageEdge.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/DruidPageStandard.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Entry.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/FileEntry.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/FontPicker.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/HRef.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Help.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/I18N.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/IconEntry.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/IconList.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/IconSelection.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/IconTextItem.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/IconTheme.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Install/doctypes
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Install/gnome.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Install/gnome2perl-autogen.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Install/gnome2perl-versions.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Install/gnome2perl.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Install/gnome2perl.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/ModuleInfo.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/PasswordDialog.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/PixmapEntry.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/PopupMenu.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Program.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Score.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Scores.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Sound.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Thumbnail.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/ThumbnailFactory.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/UIDefs.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/URL.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Util.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Window.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/WindowIcon.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/enums.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/index.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/main.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Gnome2.dll
   /usr/share/doc/perl-Gnome2-1.042/AUTHORS
   /usr/share/doc/perl-Gnome2-1.042/ChangeLog
   /usr/share/doc/perl-Gnome2-1.042/LICENSE
@@ -163,11 +157,13 @@ Files included in the binary package:
   /usr/share/man/man3/Gnome2.enums.3pm.gz
   /usr/share/man/man3/Gnome2.index.3pm.gz
   /usr/share/man/man3/Gnome2.main.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/Gnome2.pod
 
 --------------------
 
 Port Notes:
+
+----- version 1.042-2 -----
+Rebuilt for perl-5.10.
 
 ----- version 1.042-1 -----
 Version bump.

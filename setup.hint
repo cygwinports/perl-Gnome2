@@ -1,4 +1,4 @@
 category: Perl Gnome
-requires: cygwin libbonoboui2 libgnome2 libgnomeui2 perl perl-Glib perl-Gtk2 perl-Gnome2-Canvas perl-Gnome2-VFS
+requires: cygwin glib2 gtk2-x11 libbonoboui2 libgnome2 libgnomeui2 perl perl-Glib perl-Gtk2 perl-Gnome2-Canvas perl-Gnome2-VFS
 sdesc: "Perl bindings for libbonoboui-2 and libgnomeui-2"
 ldesc: "Perl bindings for libbonoboui-2 and libgnomeui-2"
