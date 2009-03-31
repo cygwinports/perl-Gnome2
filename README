@@ -3,27 +3,28 @@ perl-Gnome2
 Perl bindings for the libbonoboui-2 and libgnomeui-2 libraries.
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  gdk-pixbuf2-2.12.7-1
-  glib2-2.14.6-1
-  gtk2-x11-2.12.7-1
-  libbonoboui2-2.20.0-1
-  libgnome2-2.20.0.1-1
-  libgnomeui2-2.20.0.1-1
-  perl-5.10.0-3
-  perl-Glib-1.164-1
-  perl-Gnome2-Canvas-1.002-5
-  perl-Gnome2-VFS-1.081-1
-  perl-Gtk2-1.164-1
+  cygwin-1.7.0-44
+  libbonoboui2_0-2.24.1-1
+  libgcc1-4.3.2-2
+  libgdk-pixbuf2.0_0-2.16.0-1
+  libglib2.0_0-2.20.0-1
+  libgnome2_0-2.26.0-1
+  libgnomeui2_0-2.24.1-1
+  libgtk2.0_0-2.16.0-1
+  perl-5.10.0-5
+  perl-Glib-1.220-1
+  perl-Gnome2-Canvas-1.002-10
+  perl-Gnome2-VFS-1.081-10
+  perl-Gtk2-1.220-1
 
 Build requirements:
 (besides corresponding devel packages)
-  binutils-20060817-1
-  cygport-0.3.9-1
-  gcc-core-3.4.4-3
-  make-3.81-1
-  perl-ExtUtils-Depends-0.205-2
-  perl-ExtUtils-PkgConfig-1.10-1
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  make-3.81-2
+  perl-ExtUtils-Depends-0.301-1
+  perl-ExtUtils-PkgConfig-1.12-1
 
 Canonical homepage:
   http://gtk2-perl.sourceforge.net/
@@ -104,12 +105,12 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/main.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Gnome2.dll
-  /usr/share/doc/perl-Gnome2-1.042/AUTHORS
-  /usr/share/doc/perl-Gnome2-1.042/ChangeLog
-  /usr/share/doc/perl-Gnome2-1.042/LICENSE
-  /usr/share/doc/perl-Gnome2-1.042/NEWS
-  /usr/share/doc/perl-Gnome2-1.042/README
-  /usr/share/doc/perl-Gnome2-1.042/TODO
+  /usr/share/doc/perl-Gnome2/AUTHORS
+  /usr/share/doc/perl-Gnome2/ChangeLog
+  /usr/share/doc/perl-Gnome2/LICENSE
+  /usr/share/doc/perl-Gnome2/NEWS
+  /usr/share/doc/perl-Gnome2/README
+  /usr/share/doc/perl-Gnome2/TODO
   /usr/share/man/man3/Gnome2.3pm.gz
   /usr/share/man/man3/Gnome2.About.3pm.gz
   /usr/share/man/man3/Gnome2.App.3pm.gz
@@ -162,30 +163,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 1.042-2 -----
-Rebuilt for perl-5.10.
-
------ version 1.042-1 -----
-Version bump.
-
------ version 1.041-1 -----
-Version bump.
-
------ version 1.040-1 -----
-Version bump for GNOME 2.14.
-Source package is now cygport driven.
-
------ version 1.023-1 -----
-Version bump.
-
------ version 1.021-1 -----
-Version bump.
-
------ version 1.020-2 -----
-Rebuilt for perl-5.8.6.
-
------ version 1.020-1 -----
-Initial release for Cygwin.
+----- version 1.042-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
