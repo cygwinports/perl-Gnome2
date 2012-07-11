@@ -1,0 +1,9 @@
+inherit gtk2-perl
+
+
+DEPEND="perl(ExtUtils::Depends)
+	perl(ExtUtils::PkgConfig)
+	perl(Glib)
+	perl(Gtk2)
+	perl(Gnome2::Canvas)
+	perl(Gnome2::VFS)"
