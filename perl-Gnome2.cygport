@@ -1,8 +1,8 @@
 inherit gtk2-perl
 
 NAME="perl-Gnome2"
-VERSION=1.042
-RELEASE=11
+VERSION=1.045
+RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl bindings for libbonoboui-2 and libgnomeui-2"
 DESCRIPTION="Perl bindings for libbonoboui-2 and libgnomeui-2"
